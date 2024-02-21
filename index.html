@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorWave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+
+    <header class="header">
+        <div class="container">
+            <a class="header__logo__link" href="./index.html"><img class="header__logo__img" src="./img/nike.hero.jpg"
+                    alt="logo"></a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"> <a class="header__nav__link" href="#">Main page</a></li>
+                    <li class="header__item"> <a class="header__nav__link" href="#">Benefits</a></li>
+                    <li class="header__item"> <a class="header__nav__link" href="#">Advantages</a></li>
+                    <li class="header__item"> <a class="header__nav__link" href="#">Reviews</a></li>
+                    <li class="header__item"> <a class="header__nav__link" href="#">Contacts</a></li>
+                    <li class="header__item"> <a class="header__nav__link" href="#">Order</a></li>
+                </ul>
+            </nav>
+            <ul class="header__languages__list">
+                <li class="header__languages__item">Ua</li>
+                <li class="header__languages__item">Eng</li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- main -->
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <img class="hero__img" src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="nk">
+                <p class="hero__logo">С&R</p>
+                <h1 class="hero__title">ColoRawe</h1>
+                <h2 class="hero__subtitle">Your dream Nike</h2>
+                <p class="hero__text">On this site you can find custom Nike sneakers of your dreams.
+                    The original company caт`t create such beautiful<br>
+                    sneakers as we do.<br>
+                    Good luck finding your way in the world of custom sneakers.</p>
+                <button class="hero__button" type="button">Buy my Nike</button>
+            </div>
+        </section>
+
+        <section class="custom__nikes">
+            <div class="container">
+                <ul class="custom__nikes__list">
+                    <li class="custom__nikes__item">
+                        <h2 class="custom__nikes__title">Premium<br>Quality</h2>
+                        <img class="custom__nikes__img" src="./img/stars.png" alt="star">
+                    </li>
+                    <li class="custom__nikes__item">
+                        <img class="custom__nikes__img" src="./img/sparays.png" alt="sp">
+                        <h2 class="custom__nikes__title">Indelible<br>paint</h2>
+                    </li>
+                    <li class="custom__nikes__item">
+                        <h2 class="custom__nikes__title">Fast<br>shipping</h2>
+                        <img class="custom__nikes__img" src="./img/delivery.png" alt="dali">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h2 class="reviews__title">Reviews</h2>
+                <ul class="reviews__list">
+                    <li class="reviews__item" id="john">
+                        <p class="review">Sneakers are very<br>
+                            comfortable and well<br>
+                            painted, nothing has<br>
+                            worn off in a year.</p>
+                        <p class="date">25.11</p>
+                        <div class="reviews__users">
+                            <img class="avatar" src="./img/john.png" alt="john">
+                            <div>
+                                <h4 class="name">John Teylor</h4>
+                                <p class="withus">With us from 2018</p>
+                            </div>
+                        </div>
+
+                    <li class="comments_item">
+                        <h2 class="comments_text">I'm very happy with this color scheme.
+                            They match all my clothes.</h2>
+                        <p class="comments_text2">05:01</p>
+                        <img class="comments_img" src="./img/eliz.png" alt="eliz">
+                        <h4 class="comments_littletext">Elizabeth Garsia</h4>
+                        <p class="comments_text3">With us from 2020</p>
+                    </li>
+                    <li class="comments_item">
+                        <h2 class="comments_text">Just right if you need to go to a party.
+                            I use them actively, the paint is super.</h2>
+                        <p class="comments_text2">18:06</p>
+                        <img class="comments_img" src="./img/tom.png" alt="toom">
+                        <h4 class="comments_littletext">Tom Maquare</h4>
+                        <p class="comments_text3">With us from 2019</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        </ul>
+        </div>
+        </section>
+
+        <section class="order">
+            <div class="container">
+                <h2 class="order__title">Order</h2>
+                <form>
+                    <label for="email"></label>
+                    <input class="email" type="email" id="email" placeholder="Write your email"/>
+                    <label for="country"></label>
+                    <input class="label" type="text" id="contry" placeholder="Your Country"/>
+                    <label for="City"></label>
+                    <input class="label" type="text" id="city" placeholder="Your City"/>
+                    <label for="adress"></label>
+                    <input class="label" type="text" id="adress" placeholder="Your Adress"/>
+                </form>
+                <button class="order__button" type="submit">Order my Nike</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!--footer-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__div">
+                <ul class="quest__list">
+                    <li class="quest__item">Have a question?</li>
+                    <li class="quest__item">Have a proposal for cooperation?</li>
+                    <li class="quest__item">Advertising questions?</li>
+                </ul>
+
+                <ul class="links__list">
+                    <li class="links__item">ColoRawe_support@gmail.com</li>
+                    <li class="links__item">ColoRawe_Cooperation@gmail.com</li>
+                    <li class="links__item">ColoRawe_Advertising@gmail.com</li>
+                </ul>
+            </div>
+            <div class="info__div">
+                <ul class="information__list">
+                    <li class="information__item">2022 ColoRawe @All rights reserved</li>
+                    <li class="information__item">United States</li>
+                </ul>
+                <ul class="logo__footer--list">
+                    <li class="logo__footer--item"><img class="footer__img"
+                            src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="nike png">
+                    </li>
+                    <li class="logo__footer--item">С&R</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
