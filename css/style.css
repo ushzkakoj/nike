@@ -45,7 +45,6 @@ body {
 }
 
 .header__nav__link:focus,
-
 .header__nav__link:hover {
     color: #FFF;
 }
@@ -67,25 +66,18 @@ body {
 }
 
 .hero {
+
      background-image: url(../img/nike-hero.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     background-position: center;
-     display: flex;
+     background-position: center;   
      height: 858px;
+     padding-top: 94px;
 }
 
 .hero__img {
-    display: flex;
-    background: url(../img/nike-logo.png);
     width: 160px;
-    height: 120px;
-    left: 171px;
-    right: 1109px;
-    top: 184px;
-    bottom: 2571px;
-    background: no-repeat;
-    
+    height: 120px;     
 }
 
 .hero__logo {
@@ -98,13 +90,6 @@ body {
     margin-top: 1px;
     margin-bottom: -25px;
     margin-left: 30px;
-
-    width: 178px;
-    height: 86px;
-    left: 196px;
-    right: 1066px;
-    top: 269px;
-    bottom: 2520px; 
 }
 
 .hero__title {
@@ -138,8 +123,6 @@ body {
 }
 
 .hero__button {
-   
-   
     letter-spacing: 0.96px;
     padding: 10px 32px;
     border-radius: 4px;
@@ -155,13 +138,12 @@ body {
     margin-top: 41px;
 }
 
-.info {
-    display: flex;
+.info { 
     background-image: url("../img/gridient.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    align-items: center;
+    padding: 105px 0;
 }
 
 .info__list {
@@ -199,7 +181,8 @@ body {
     background-position: left bottom, center;
     background-repeat: no-repeat;
     background-size: auto, cover;
-    height: 520px;
+    padding-top: 25px;
+    padding-bottom: 114px;
 }
 
 .reviews__title {
@@ -209,7 +192,6 @@ body {
     line-height: 48px;
     text-align: center;
     color: #ffffff;
-    padding-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -289,17 +271,6 @@ body {
     color: #d8d8d8;
     font-size: 12px;
     font-weight: 400;
-}
-
-.reviews__section__img {
-    content: "";
-    display: block;
-    width: 255px;
-    height: 292px;
-    flex-shrink: 0;
-    display: flex;
-    gap: 30px;
-
 }
 
 .reviews__section__title {
@@ -400,9 +371,7 @@ body {
     line-height: normal;
 }
 
-.quest__item {
-  
-}
+
 
 .links__item {
     color: #FFF;
@@ -412,7 +381,7 @@ body {
     text-align: right;
 }
 
-.info {
+.info__div {
     display: flex;
     justify-content: space-between;
 }
