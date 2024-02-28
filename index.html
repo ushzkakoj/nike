@@ -22,7 +22,7 @@
 
     <header class="header">
         <div class="container">
-            <a class="header__logo__link" href="./index.html"><img class="header__logo__img" src="./img/nike.jpg"
+            <a class="header__logo__link" href="./index.html"><img class="header__logo__img" src="./img/nike-logo.png"
                     alt="logo"></a>
             <nav class="header__nav">
                 <ul class="header__list">
@@ -46,7 +46,7 @@
     <main class="main">
         <section class="hero">
             <div class="container">
-                <img class="hero__img" src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="nk">
+                <img class="hero__img" src="./img/nike-logo.png" alt="nk">
                 <p class="hero__logo">С&R</p>
                 <h1 class="hero__title">ColoRawe</h1>
                 <h2 class="hero__subtitle">Your dream Nike</h2>
@@ -58,57 +58,71 @@
             </div>
         </section>
 
-        <section class="custom__nikes">
+        <section class="info">
             <div class="container">
-                <ul class="custom__nikes__list">
-                    <li class="custom__nikes__item">
-                        <h2 class="custom__nikes__title">Premium<br>Quality</h2>
-                        <img class="custom__nikes__img" src="./img/stars.png" alt="star">
+                <ul class="info__list">
+                    <li class="info__list-item">
+                        <h2 class="info__list-title">Premium Quality</h2>
+                        <img src="./img/stars.png" alt="star" class="st">
                     </li>
-                    <li class="custom__nikes__item">
-                        <img class="custom__nikes__img" src="./img/sparays.png" alt="sp">
-                        <h2 class="custom__nikes__title">Indelible<br>paint</h2>
+
+                    <li class="info__list-item">
+                        <h2 class="info__list-title">Indelible paint</h2>
+                        <img src="./img/sprays.png" alt="colors" class="sp">
                     </li>
-                    <li class="custom__nikes__item">
-                        <h2 class="custom__nikes__title">Fast<br>shipping</h2>
-                        <img class="custom__nikes__img" src="./img/delivery.png" alt="dali">
+
+                    <li class="info__list-item">
+                        <h2 class="info__list-title">Fast shipping</h2>
+                        <img src="./img/delivery.png" alt="вфдг" class="dl">
                     </li>
                 </ul>
             </div>
         </section>
+
         <section class="reviews">
+
             <div class="container">
-                <h2 class="reviews__title">Reviews</h2>
+                <h3 class="reviews__title">Reviews</h3>
                 <ul class="reviews__list">
-                    <li class="reviews__item" id="john">
-                        <p class="review">Sneakers are very<br>
-                            comfortable and well<br>
-                            painted, nothing has<br>
-                            worn off in a year.</p>
-                        <p class="date">25.11</p>
-                        <div class="reviews__users">
-                            <img class="avatar" src="./img/john.png" alt="john">
-                            <div>
-                                <h4 class="name">John Teylor</h4>
-                                <p class="withus">With us from 2018</p>
+                    <li class="reviews__list-item">
+                        <p class="reviews__item-text">Sneakers are very comfortable and well painted, nothing has worn
+                            off in a year.</p>
+                        <p class="reviews__item-data">
+                            25.11</p>
+                        <div class="reviews__div">
+                            <img src="./img/john.png" alt="John" class="jhn">
+                            <div class="reviews__text-div">
+                                <p class="reviews__item-name">John Teylor</p>
+                                <p class="reviews__item-data-join">With us from 2018</p>
                             </div>
                         </div>
-
-                    <li class="comments_item">
-                        <h2 class="comments_text">I'm very happy with this color scheme.
-                            They match all my clothes.</h2>
-                        <p class="comments_text2">05:01</p>
-                        <img class="comments_img" src="./img/eliz.png" alt="eliz">
-                        <h4 class="comments_littletext">Elizabeth Garsia</h4>
-                        <p class="comments_text3">With us from 2020</p>
                     </li>
-                    <li class="comments_item">
-                        <h2 class="comments_text">Just right if you need to go to a party.
-                            I use them actively, the paint is super.</h2>
-                        <p class="comments_text2">18:06</p>
-                        <img class="comments_img" src="./img/tom.png" alt="toom">
-                        <h4 class="comments_littletext">Tom Maquare</h4>
-                        <p class="comments_text3">With us from 2019</p>
+
+                    <li class="reviews__list-item">
+                        <p class="reviews__item-text">I'm very happy with this color scheme. They match all my clothes.
+                        </p>
+                        <p class="reviews__item-data">
+                            05.01</p>
+                        <div class="reviews__div">
+                            <img src="./img/eliz.png" alt="Elizabeth" class="lizzz">
+                            <div class="reviews__text-div">
+                                <p class="reviews__item-name">Elizabeth Garsia</p>
+                                <p class="reviews__item-data-join">With us from 2020</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="reviews__list-item">
+                        <p class="reviews__item-text">Just right if you need to go to a party. I use them actively, the
+                            paint is super.</p>
+                        <p class="reviews__item-data" 18.06</p>
+                        <div class="reviews__div">
+                            <img src="./img/tomm.png" alt="Tom" class="toom">
+                            <div class="reviews__text-div">
+                                <p class="reviews__item-name">Tom Maquare</p>
+                                <p class="reviews__item-data-join">With us from 2019</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -120,32 +134,41 @@
 
         <section class="order">
             <div class="container">
-                <h2 class="order__title">Order</h2>
-                <form>
-                    <label for="email"></label>
-                    <input class="email" type="email" id="email" placeholder="Write your email"/>
-                    <label for="country"></label>
-                    <input class="label" type="text" id="contry" placeholder="Your Country"/>
-                    <label for="City"></label>
-                    <input class="label" type="text" id="city" placeholder="Your City"/>
-                    <label for="adress"></label>
-                    <input class="label" type="text" id="adress" placeholder="Your Adress"/>
+                <h3 class="order__title">Order</h3>
+                <form class="order__form">
+                    <label for="user_email" class="order__form__label">
+                        <input type="email" name="email" id="user_email" placeholder="Write your email"
+                            class="order__form-control-first">
+                    </label>
+
+                    <label for="user_country" class="order__form__label">
+                        <input type="text" name="text" id="user_country" placeholder="Your Country"
+                            class="order__form-control">
+                    </label>
+
+                    <label for="user_city" class="order__form__label">
+                        <input type="text" name="text" id="user_city" placeholder="Your City"
+                            class="order__form-control">
+                    </label>
+
+                    <label for="user_adress" class="order__form__label">
+                        <input type="text" name="text" id="user__adress" placeholder="Your Adress"
+                            class="order__form-control">
+                    </label>
+
+                    <button type="button" class="order__button">Order my Nike</button>
                 </form>
-                <button class="order__button" type="submit">Order my Nike</button>
             </div>
         </section>
-
     </main>
-
-    <!--footer-->
 
     <footer class="footer">
         <div class="container">
             <div class="footer__div">
-                <ul class="quest__list">
-                    <li class="quest__item">Have a question?</li>
-                    <li class="quest__item">Have a proposal for cooperation?</li>
-                    <li class="quest__item">Advertising questions?</li>
+                <ul class="footer__list">
+                    <li class="footer__item">Have a question?</li>
+                    <li class="footer__item">Have a proposal for cooperation?</li>
+                    <li class="footer__item">Advertising questions?</li>
                 </ul>
 
                 <ul class="links__list">
@@ -160,8 +183,7 @@
                     <li class="information__item">United States</li>
                 </ul>
                 <ul class="logo__footer--list">
-                    <li class="logo__footer--item"><img class="footer__img"
-                            src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="nike">
+                    <li class="logo__footer--item"><img class="footer__img" src="./img/nike-logo.png" alt="nike">
                     </li>
                     <li class="logo__footer--item">С&R</li>
                 </ul>
